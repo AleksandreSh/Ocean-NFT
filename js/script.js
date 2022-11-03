@@ -10,18 +10,18 @@ const slider = document.querySelector('.collections__items');
 const list = document.querySelectorAll('.footer__list-title');
 const items = document.querySelectorAll('.footer__top-list');
 
-// window.addEventListener("scroll", () => {
-//     const currentScroll = window.pageYOffset;
-//     if (currentScroll <= 0) {
-//       body.classList.remove(scrollDown);
-//       return;
-//     }
-//     else if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
-//       // down
-//       body.classList.add(scrollDown);
-//     }
-//     lastScroll = currentScroll;
-// });
+window.addEventListener("scroll", () => {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll <= 0) {
+      body.classList.remove(scrollDown);
+      return;
+    }
+    else if (currentScroll > lastScroll && !body.classList.contains(scrollDown)) {
+      // down
+      body.classList.add(scrollDown);
+    }
+    lastScroll = currentScroll;
+});
 
 burger.addEventListener('change', e => {
     if(e.target.checked === true) {
@@ -36,55 +36,55 @@ burger.addEventListener('change', e => {
     }
 });
 
-// const nft = new Swiper('.top-nft__content-swiper', {
-//     grabCursor: true,
-//     width: 1370,
-//     slidesPerView: 3,
-//     freeMode: true,
-//     breakpoints: {
-//         320: {
-//             slidesPerView: 1,
-//             width: 250,
-//         },
-//         549: {
-//           slidesPerView: 1,
-//           width: 435,
-//         },
-//         935: {
-//           slidesPerView: 2,
-//           width: 935,
-//         },
-//         1370: {
-//             width: 1370,
-//             slidesPerView: 3,
-//         }
-//     }
-// });
+const nft = new Swiper('.top-nft__content-swiper', {
+    grabCursor: true,
+    width: 1370,
+    slidesPerView: 3,
+    freeMode: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            width: 250,
+        },
+        549: {
+          slidesPerView: 1,
+          width: 435,
+        },
+        935: {
+          slidesPerView: 2,
+          width: 935,
+        },
+        1370: {
+            width: 1370,
+            slidesPerView: 3,
+        }
+    }
+});
 
-// const profile = new Swiper('.profiles__swiper', {
-//     grabCursor: true,
-//     width: 1370,
-//     slidesPerView: 3,
-//     freeMode: true,
-//     breakpoints: {
-//         320: {
-//             slidesPerView: 1,
-//             width: 270,
-//         },
-//         536: {
-//           slidesPerView: 1,
-//           width: 438,
-//         },
-//         935: {
-//           slidesPerView: 2,
-//           width: 935,
-//         },
-//         1370: {
-//             width: 1370,
-//             slidesPerView: 3,
-//         }
-//     }
-// });
+const profile = new Swiper('.profiles__swiper', {
+    grabCursor: true,
+    width: 1370,
+    slidesPerView: 3,
+    freeMode: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+            width: 270,
+        },
+        536: {
+          slidesPerView: 1,
+          width: 438,
+        },
+        935: {
+          slidesPerView: 2,
+          width: 935,
+        },
+        1370: {
+            width: 1370,
+            slidesPerView: 3,
+        }
+    }
+});
 
 // function hideTabContent() {
 //     content.forEach(item => {
@@ -125,4 +125,5 @@ burger.addEventListener('change', e => {
 //         }
 //     })
 // });
+
 
