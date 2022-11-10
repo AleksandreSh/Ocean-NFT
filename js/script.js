@@ -86,44 +86,44 @@ const profile = new Swiper('.profiles__swiper', {
     }
 });
 
-// function hideTabContent() {
-//     content.forEach(item => {
-//       item.style.display = 'none';
-//     });
-//     tab.forEach(item => {
-//       item.classList.remove('collections__item--active');
-//     });
-// }
-// function showTabContent(i = 0) {
-//     content[i].style.display = 'block';
-//     tab[i].classList.add('collections__item--active');
-// }
-// hideTabContent();
-// showTabContent();
-// slider.addEventListener("click", (e) => {
-//     const target = e.target;
-//     if (target) {
-//         tab.forEach((item, i) => {
-//             if (target == item) {
-//                 hideTabContent();
-//                 showTabContent(i);
-//             }
-//         });
-//     }
-// });
+function hideTabContent() {
+    content.forEach(item => {
+      item.style.display = 'none';
+    });
+    tab.forEach(item => {
+      item.classList.remove('collections__item--active');
+    });
+}
+function showTabContent(i = 0) {
+    content[i].style.display = 'block';
+    tab[i].classList.add('collections__item--active');
+}
+hideTabContent();
+showTabContent();
+slider.addEventListener("click", (e) => {
+    const target = e.target;
+    if (target) {
+        tab.forEach((item, i) => {
+            if (target == item) {
+                hideTabContent();
+                showTabContent(i);
+            }
+        });
+    }
+});
 
-// list.forEach((item, i) => {
-//     item.addEventListener("click", (e) => {
-//         const target = e.target.closest('.footer__list-title');
-//         if (target == item) {
-//             items[i].classList.toggle('active');
-//             items.forEach((listItem, j) => {
-//                 if (j != i && items[j].classList.contains('active')) {
-//                     listItem.classList.toggle('active');
-//                 }
-//             })
-//         }
-//     })
-// });
+list.forEach((item, i) => {
+    item.addEventListener("click", (e) => {
+        const target = e.target.closest('.footer__list-title');
+        if (target == item) {
+            items[i].classList.toggle('active');
+            items.forEach((listItem, j) => {
+                if (j != i && items[j].classList.contains('active')) {
+                    listItem.classList.toggle('active');
+                }
+            })
+        }
+    })
+});
 
 
