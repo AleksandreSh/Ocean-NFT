@@ -57,6 +57,11 @@
   left: 200px;
 }
 
+@media (max-width: 600px) {
+  .decoration {
+    display: none;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -64,6 +69,7 @@ html {
 body {
   background: rgb(32, 8, 59);
   color: #fff;
+  overflow-x: hidden;
   position: relative;
 }
 

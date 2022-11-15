@@ -66,6 +66,10 @@
     }
 }
 
+@media(max-width: 600px){
+    .decoration{display: none;}
+}
+
 html {
     // background: #01204C;
     // background: rgba(32, 8, 59, 0.75);
@@ -73,10 +77,10 @@ html {
     
 }
 body {
-    // backdrop-filter: blur(92.3058px);
+    // backdrop -filter: blur(92.3058px);
     background: rgba(32, 8, 59, 1);
     color: #fff;
-
+    overflow-x: hidden;
     position: relative;
 }
 
@@ -132,6 +136,7 @@ body {
     background: rgba(32, 8, 59, 0.75);
     &.active {
         background: rgba(32, 8, 59, 1);
+        
     }
 }
 
