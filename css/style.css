@@ -1098,6 +1098,11 @@ body {
   border-image-source: linear-gradient(272.52deg, #FFA6FA 47.49%, #3C79D5 98.81%);
   border-image-slice: 1;
 }
+@media screen and (max-width: 547px) {
+  .profile__info .top-nft__bottom .button__inside {
+    padding: 11px 15px;
+  }
+}
 
 .top-nft__bot, .profiles__bot {
   display: none;
@@ -1118,6 +1123,17 @@ body {
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
+  }
+  .top-nft__bot .button__inside, .profiles__bot .button__inside {
+    padding: 19px 32px;
+  }
+  .top-nft__bot .button__inside img, .profiles__bot .button__inside img {
+    width: 28px;
+  }
+}
+@media screen and (max-width: 547px) {
+  .top-nft__bot .button__inside, .profiles__bot .button__inside {
+    padding: 11px 15px;
   }
 }
 
@@ -1260,6 +1276,11 @@ body {
     display: flex;
     font-size: 12px;
     line-height: 15px;
+  }
+}
+@media screen and (max-width: 547px) {
+  .top-sellers .button__inside {
+    padding: 11px 15px;
   }
 }
 @media screen and (max-width: 475px) {
@@ -1653,6 +1674,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 33px;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 @media screen and (max-width: 1020px) {
   .footer__top .footer__top-content {
@@ -1701,6 +1724,8 @@ body {
   display: flex;
   gap: 10px;
   margin: 0 0 10px 10px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
 }
 .footer__top .list__underline {
   display: none;
@@ -1767,6 +1792,8 @@ body {
           flex-direction: column;
   gap: 13.27px;
   margin-top: 18px;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 .footer__top .footer__top-list span {
   font-family: "MuseoModerno";
@@ -1788,12 +1815,16 @@ body {
           justify-content: space-between;
   margin-top: 25px;
   gap: 35px;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 .footer__bot .footer__bot-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 23.21px;
+  -webkit-transition: 3s;
+  transition: 3s;
 }
 .footer__bot .footer__bot-group .footer__link {
   position: relative;
@@ -1829,6 +1860,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    -webkit-transition: 3s;
+    transition: 3s;
   }
 }
 @media screen and (max-width: 400px) {
