@@ -817,6 +817,7 @@ body {
     margin-top: -10px;
   }
   .top-nft__content-swiper .nft .nft__auction-button {
+    margin-top: 15px;
     padding: 9px 7px;
     font-size: 13.6006px;
     line-height: 17px;
@@ -828,6 +829,7 @@ body {
 }
 @media screen and (max-width: 440px) {
   .top-nft__content-swiper .nft .nft__auction-button {
+    margin-top: 15px;
     padding: 7px 7px;
     font-size: 11px;
     line-height: 10px;
