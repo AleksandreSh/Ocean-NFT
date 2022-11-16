@@ -826,6 +826,17 @@ body {
     width: 22px;
   }
 }
+@media screen and (max-width: 440px) {
+  .top-nft__content-swiper .nft .nft__auction-button {
+    padding: 7px 7px;
+    font-size: 11px;
+    line-height: 17px;
+    gap: 4px;
+  }
+  .top-nft__content-swiper .nft img {
+    width: 15px;
+  }
+}
 
 .top-nft__auction {
   position: relative;
@@ -923,7 +934,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .collections__items {
-    gap: 15px;
+    gap: 15 px;
     margin: 10px 1px;
   }
 }
