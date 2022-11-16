@@ -775,7 +775,7 @@ body {
   }
   .top-nft__content-swiper .nft .nft__auction {
     padding: 10px;
-    gap: 10px;
+    gap: 5px;
   }
   .top-nft__content-swiper .nft .nft__title {
     font-size: 13.6006px;
@@ -830,7 +830,7 @@ body {
   .top-nft__content-swiper .nft .nft__auction-button {
     padding: 7px 7px;
     font-size: 11px;
-    line-height: 17px;
+    line-height: 10px;
     gap: 4px;
   }
   .top-nft__content-swiper .nft img {
