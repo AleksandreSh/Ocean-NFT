@@ -895,9 +895,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 43px;
@@ -906,25 +906,31 @@ body {
 @media screen and (max-width: 860px) {
   .collections__items {
     gap: 30px;
-    margin: 40px 30px;
+    margin: 40px 10px;
   }
 }
 @media screen and (max-width: 740px) {
   .collections__items {
-    gap: 30px;
-    margin: 40px 20px;
+    gap: 10px;
+    margin: 35px 5px;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
   .collections__items {
     gap: 30px;
     margin: 20px;
   }
 }
+@media screen and (max-width: 425px) {
+  .collections__items {
+    gap: 15px;
+    margin: 10px 1px;
+  }
+}
 @media screen and (max-width: 375px) {
   .collections__items {
     gap: 10px;
-    margin: 5px;
+    margin: 10px 1px;
   }
 }
 
