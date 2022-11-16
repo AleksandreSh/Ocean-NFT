@@ -23,13 +23,6 @@ window.addEventListener("scroll", () => {
     lastScroll = currentScroll;
 });
 
-window.addEventListener('scroll', function() {
-    if (window.pageYOffset > 0) {document.querySelector('header').classList.add('scrolled')}
-    else {document.querySelector('header').classList.remove('scrolled')}
-  });
-
-setInterval(() => counters(), 1000);
-
 
 
 burger.addEventListener('change', e => {
