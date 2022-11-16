@@ -821,8 +821,8 @@ padding-bottom: 100px;
 .collections__items {
     margin: 40px 10px;
     display: flex;
-    // justify-content: space-between;
-    justify-content:center;
+    justify-content: space-between;
+    // justify-content:center;
     flex-wrap: wrap;
     gap: 43px;
     max-width: 782px;
@@ -835,18 +835,18 @@ padding-bottom: 100px;
         margin: 35px 5px;
     }
     
-    @media screen and (max-width: 470px) {
-        gap: 30px;
-        margin: 20px;
-    }
-    @media screen and (max-width: 425px) {
-        gap: 15 px;
-        margin: 10px 1px;
-    }
-    @media screen and (max-width: 375px) {
-        gap: 10px;
-        margin: 10px 1px;
-    }
+    // @media screen and (max-width: 470px) {
+    //     gap: 30px;
+    //     margin: 20px;
+    // }
+    // @media screen and (max-width: 425px) {
+    //     gap: 15 px;
+    //     margin: 10px 1px;
+    // }
+    // @media screen and (max-width: 375px) {
+    //     gap: 10px;
+    //     margin: 10px 1px;
+    // }
 }
 
 .collections__item {
@@ -865,35 +865,36 @@ padding-bottom: 100px;
         backdrop-filter: blur(105px);
         transition: all 0.3s ease-in;
     }
-    @media screen and (max-width: 810px) {
+    @media screen and (max-width: 830px) {
         font-size: 20px;
         line-height: 25px;
         padding: 25px 0;
-        width: 300px;
+        width: 46%;
     }
     @media screen and (max-width: 680px) {
         font-size: 18px;
         line-height: 20px;
         padding: 20px 0;
-        width: 250px;
+        width: 48%;
     }
     @media screen and (max-width: 574px) {
         font-size: 16px;
         line-height: 16px;
-        width: 200px;
+        width: 48%;
     }
     @media screen and (max-width: 474px) {
         font-size: 10.9922px;
         line-height: 14px;
         padding: 15px 0;
-        width: 150px;
+        width: 48%;
     }
     @media screen and (max-width: 367px) {
         font-size: 10px;
         line-height: 12px;
         padding: 10px 0;
-        width: 120px;
+        width: 48%;
     }
+   
 }
 
 .collections__item--active {
@@ -912,7 +913,7 @@ padding-bottom: 100px;
     max-height: 815px;
     max-width: 436px;
     @media screen and (max-width: 474px) {
-        max-width: 270px;
+        max-width: 200px;
     }
 }   
 
